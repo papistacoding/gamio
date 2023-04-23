@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+h2 {
+  font-family: "PrimaryBold", sans-serif;
+  font-weight: 900;
+  margin: 0;
+  line-height: 29px;
+}
+h5 {
+  font-family: "PrimaryMeduim", sans-serif;
+  font-weight: 600;
+  margin: 10px 0;
+  font-size: 14px;
+  line-height: 17px;
+}
+.color-dark {
+  color: #143757;
+}
+.color-gray {
+  color: #6f819c;
+}
+.color-blue {
+  color: #4175fa;
+}
+a {
+  font-family: "PrimaryMeduim", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+.title {
+  margin-top: 150px;
+  margin-left: 7.45%;
+  color: #143757;
+}
+
+@media (max-width: 1024px) {
+  .title {
+    display: none;
+  }
+}

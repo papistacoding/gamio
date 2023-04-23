@@ -1,0 +1,16 @@
+.inventoryList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3rem 0;
+  padding: 0 2rem;
+}
+@media screen and (min-width: 1025px) {
+ .inventoryList{
+  margin: 3rem 0 3rem 7.45%;
+  justify-content: unset;
+  padding: 0;
+  gap: 2rem;
+ }
+}

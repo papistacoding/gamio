@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "PrimaryBold";
+    src: url("/fonts/Inter-ExtraBold.ttf");
+  }
+  @font-face {
+    font-family: "PrimaryMeduim";
+    src: url("/fonts/Inter-SemiBold.ttf");
+  }
+  

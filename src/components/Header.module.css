@@ -1,0 +1,37 @@
+.header {
+  position: relative;
+  width: 100%;
+}
+.headerImage {
+  width: 100%;
+}
+.headerDesktop {
+  position: relative;
+}
+.clip {
+  display: none;
+}
+.bluredMark {
+  display: none;
+}
+@media screen and (min-width: 1025px) {
+  .clip {
+    display: block;
+    bottom: -5%;
+    width: 17.223vw;
+    height: 21.39vw;
+    position: absolute;
+    clip-path: polygon(0 0, 50% 0, 80% 100%, 0% 100%);
+    background-color: #4175fa;
+  }
+  .blurredMark {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -70%;
+    background: rgba(252, 105, 71, 0.1);
+    filter: blur(150px);
+    width: 28%;
+    height: 600px;
+  }
+}

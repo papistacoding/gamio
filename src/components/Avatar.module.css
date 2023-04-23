@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.avatarImage {
+  margin-top: -15%;
+  z-index: 1;
+  width: 26%;
+  border-radius: 50%;
+}
+.infoWrapper {
+  display: flex;
+  margin-top: 1rem;
+}
+.playerName {
+  flex: 0 0 100%;
+  text-align: center;
+}
+.playerName h2, .playerName h5 {
+  text-transform: uppercase;
+}
+.level {
+  font-family: "PrimaryBold", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+}
+@media screen and (min-width: 1025px) {
+  .wrapper {
+    position: absolute;
+    top: 50%;
+    flex-direction: row;
+    z-index: 1;
+    left: 6%;
+    gap: 2rem;
+  }
+  .avatarImage {
+    margin: unset;
+    z-index: unset;
+    width: 9.45vw;
+  }
+  .playerName {
+    text-align: left;
+    flex: 0 0 91%;
+  }
+  .playerName h2 {
+    color: white;
+  }
+}

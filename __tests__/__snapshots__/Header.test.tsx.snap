@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="headerDesktop"
+  >
+    <div
+      class="header"
+    >
+      <img
+        alt="header"
+        class="headerImage"
+        data-testid="header-image"
+        src="/images/header_img.svg"
+      />
+    </div>
+    <div
+      class="wrapper"
+    >
+      <img
+        alt="Avatar"
+        class="avatarImage"
+      />
+      <div
+        class="infoWrapper"
+      >
+        <div
+          class="playerName"
+        >
+          <h2
+            class="color-dark"
+          />
+          <h5
+            class="color-gray"
+          >
+            @
+          </h5>
+        </div>
+        <span
+          class="level color-blue"
+        />
+      </div>
+    </div>
+    <div
+      class="clip"
+    />
+    <div
+      class="navWrapper"
+    >
+      <a
+        class=" link   color-gray"
+        href="/"
+      >
+        OVERVIEW
+      </a>
+      <a
+        class=" link   color-gray"
+        href="/inventory"
+      >
+        INVENTORY
+      </a>
+      <a
+        class=" link   color-gray"
+        href="/settings"
+      >
+        SETTINGS
+      </a>
+    </div>
+    <div
+      class="blurredMark"
+    />
+  </div>
+</DocumentFragment>
+`;
