@@ -9,7 +9,7 @@ interface InventoryListProps {
 export const InventoryList: React.FC<InventoryListProps> = ({ data }) => {
   return (
     <div className={classes.inventoryList}>
-      {data ? (
+      {data && data.length ? (
         data.map((item: IItem) => <InventoryItem key={item.Id} itemData={item} />)
       ) : (
         <span>There are no items in the Inventory</span>
